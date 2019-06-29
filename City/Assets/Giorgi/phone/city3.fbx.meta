@@ -1,0 +1,352 @@
+fileFormatVersion: 2
+guid: 14de05b5375fd73439a71f5ef997f828
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Camera
+    100002: Camera.001
+    100004: Camera.002
+    100006: //RootNode
+    100008: Cube.001
+    100010: Cube.010
+    100012: Cube.012
+    100014: Cube.013
+    100016: Cylinder.001
+    100018: Cylinder.002
+    100020: Cylinder.003
+    100022: Cylinder.004
+    100024: Lamp
+    100026: Lamp.001
+    100028: Lamp.002
+    100030: Lamp.003
+    100032: Lamp.004
+    100034: Lamp.005
+    100036: Plane
+    100038: Plane.001
+    100040: Plane.002
+    100042: Plane.003
+    100044: Plane.004
+    100046: Plane.005
+    100048: Plane.006
+    100050: Plane.007
+    100052: Plane.008
+    100054: Plane.009
+    100056: Plane.010
+    100058: Plane.011
+    100060: Plane.012
+    100062: Plane.013
+    100064: Plane.014
+    100066: Plane.015
+    100068: Plane.016
+    100070: Plane.017
+    100072: Plane.018
+    100074: Plane.019
+    100076: Plane.020
+    100078: Plane.021
+    100080: Plane.022
+    100082: Plane.023
+    100084: Plane.024
+    100086: Plane.025
+    100088: Plane.026
+    100090: Plane.027
+    100092: Plane.028
+    100094: Plane.029
+    100096: Plane.030
+    100098: Plane.031
+    100100: Sphere
+    400000: Camera
+    400002: Camera.001
+    400004: Camera.002
+    400006: //RootNode
+    400008: Cube.001
+    400010: Cube.010
+    400012: Cube.012
+    400014: Cube.013
+    400016: Cylinder.001
+    400018: Cylinder.002
+    400020: Cylinder.003
+    400022: Cylinder.004
+    400024: Lamp
+    400026: Lamp.001
+    400028: Lamp.002
+    400030: Lamp.003
+    400032: Lamp.004
+    400034: Lamp.005
+    400036: Plane
+    400038: Plane.001
+    400040: Plane.002
+    400042: Plane.003
+    400044: Plane.004
+    400046: Plane.005
+    400048: Plane.006
+    400050: Plane.007
+    400052: Plane.008
+    400054: Plane.009
+    400056: Plane.010
+    400058: Plane.011
+    400060: Plane.012
+    400062: Plane.013
+    400064: Plane.014
+    400066: Plane.015
+    400068: Plane.016
+    400070: Plane.017
+    400072: Plane.018
+    400074: Plane.019
+    400076: Plane.020
+    400078: Plane.021
+    400080: Plane.022
+    400082: Plane.023
+    400084: Plane.024
+    400086: Plane.025
+    400088: Plane.026
+    400090: Plane.027
+    400092: Plane.028
+    400094: Plane.029
+    400096: Plane.030
+    400098: Plane.031
+    400100: Sphere
+    2000000: Camera
+    2000002: Camera.001
+    2000004: Camera.002
+    2100000: Material
+    2100002: colornor
+    2100004: color
+    2100006: train stop ruber_
+    2100008: pave
+    2100010: Material.012
+    2100012: Material.013
+    2100014: kahki dark
+    2100016: kahki light
+    2100018: windows
+    2100020: brick red
+    2100022: black roof
+    2100024: wood
+    2100026: wooden bars
+    2100028: train stop metal side
+    2100030: rail's ground
+    2100032: train stop metal_
+    2100034: No Name
+    2100036: Material.007
+    2100038: train stop metal whit
+    2100040: Material.008
+    2100042: train stop arrow
+    2100044: Material.009
+    2100046: Material.010
+    2100048: Material.011
+    2100050: train metal_
+    2100052: train stop ruber sid_
+    2300000: Cube.001
+    2300002: Cube.010
+    2300004: Cube.012
+    2300006: Cube.013
+    2300008: Cylinder.001
+    2300010: Cylinder.002
+    2300012: Cylinder.003
+    2300014: Cylinder.004
+    2300016: Plane
+    2300018: Plane.001
+    2300020: Plane.002
+    2300022: Plane.003
+    2300024: Plane.004
+    2300026: Plane.005
+    2300028: Plane.006
+    2300030: Plane.007
+    2300032: Plane.008
+    2300034: Plane.009
+    2300036: Plane.010
+    2300038: Plane.011
+    2300040: Plane.012
+    2300042: Plane.013
+    2300044: Plane.014
+    2300046: Plane.015
+    2300048: Plane.016
+    2300050: Plane.017
+    2300052: Plane.018
+    2300054: Plane.019
+    2300056: Plane.020
+    2300058: Plane.021
+    2300060: Plane.022
+    2300062: Plane.023
+    2300064: Plane.024
+    2300066: Plane.025
+    2300068: Plane.026
+    2300070: Plane.027
+    2300072: Plane.028
+    2300074: Plane.029
+    2300076: Plane.030
+    2300078: Plane.031
+    2300080: Sphere
+    3300000: Cube.001
+    3300002: Cube.010
+    3300004: Cube.012
+    3300006: Cube.013
+    3300008: Cylinder.001
+    3300010: Cylinder.002
+    3300012: Cylinder.003
+    3300014: Cylinder.004
+    3300016: Plane
+    3300018: Plane.001
+    3300020: Plane.002
+    3300022: Plane.003
+    3300024: Plane.004
+    3300026: Plane.005
+    3300028: Plane.006
+    3300030: Plane.007
+    3300032: Plane.008
+    3300034: Plane.009
+    3300036: Plane.010
+    3300038: Plane.011
+    3300040: Plane.012
+    3300042: Plane.013
+    3300044: Plane.014
+    3300046: Plane.015
+    3300048: Plane.016
+    3300050: Plane.017
+    3300052: Plane.018
+    3300054: Plane.019
+    3300056: Plane.020
+    3300058: Plane.021
+    3300060: Plane.022
+    3300062: Plane.023
+    3300064: Plane.024
+    3300066: Plane.025
+    3300068: Plane.026
+    3300070: Plane.027
+    3300072: Plane.028
+    3300074: Plane.029
+    3300076: Plane.030
+    3300078: Plane.031
+    3300080: Sphere
+    4300000: Cube.001
+    4300002: Plane.031
+    4300004: Plane.030
+    4300006: Plane.029
+    4300008: Plane.028
+    4300010: Plane.027
+    4300012: Plane.026
+    4300014: Plane.025
+    4300016: Plane.002
+    4300018: Plane.001
+    4300020: Plane.024
+    4300022: Plane.023
+    4300024: Cube.010
+    4300026: Plane.020
+    4300028: Plane.019
+    4300030: Plane.018
+    4300032: Plane.017
+    4300034: Plane.016
+    4300036: Plane.015
+    4300038: Plane.014
+    4300040: Cube.012
+    4300042: Cylinder.003
+    4300044: Plane.008
+    4300046: Plane.012
+    4300048: Plane.003
+    4300050: Plane.004
+    4300052: Cylinder.002
+    4300054: Sphere
+    4300056: Plane.011
+    4300058: Plane.010
+    4300060: Plane.009
+    4300062: Cube.013
+    4300064: Cylinder.001
+    4300066: Plane.007
+    4300068: Plane.006
+    4300070: Cylinder.004
+    4300072: Plane.005
+    4300074: Plane.013
+    4300076: Plane.021
+    4300078: Plane.022
+    10800000: Lamp
+    10800002: Lamp.001
+    10800004: Lamp.002
+    10800006: Lamp.003
+    10800008: Lamp.004
+    10800010: Lamp.005
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
