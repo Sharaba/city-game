@@ -189,5 +189,7 @@ public class AI : MonoBehaviour
         YouveBeenCaught = false;
         agent.isStopped = false;
         Move();
+        FindObjectOfType<AudioManager>().Stop("Tension");
+
     }
 }

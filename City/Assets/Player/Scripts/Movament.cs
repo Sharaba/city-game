@@ -38,6 +38,7 @@ public class Movament : MonoBehaviour
     {
         animator = gameObject.GetComponent<Animator>();
         CameraRot = camera.transform;
+        FindObjectOfType<AudioManager>().Play("Start");
     }
     void Update()
     {
@@ -69,7 +70,7 @@ public class Movament : MonoBehaviour
                 //if (input.x != 0 || input.y != 0)
                 //    running = Input.GetKey(KeyCode.LeftShift);
                 running = Input.GetKey(KeyCode.LeftShift);
-                if (input.x == 0 || input.y == 0)
+                if (input.x == 0 && input.y == 0)
                     running = false;
                 float targetSpeed;
                 if (running)

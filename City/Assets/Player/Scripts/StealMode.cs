@@ -84,7 +84,8 @@ public class StealMode : MonoBehaviour
         }
         if (IsStealing)
         {
-            FindObjectOfType<AudioManager>().Play("Tension");
+            FindObjectOfType<AudioManager>().Stop("Walk");
+            FindObjectOfType<AudioManager>().Stop("Run");  
             StealBar.gameObject.SetActive(true);
         }
         
@@ -109,6 +110,7 @@ public class StealMode : MonoBehaviour
             }
             else
             {
+                FindObjectOfType<AudioManager>().Play("Tension");
                 Debug.Log("YOU HAVE TO GO TO SAFEHOUSE");
              
 
@@ -123,13 +125,14 @@ public class StealMode : MonoBehaviour
                 Balance += stealablethingie.StealAbleMoney;
                 BalanceText.text = ((int)Balance).ToString();
                 StealTime = 5;
-                GangController.SetBool("IsGood", true);
+                FindObjectOfType<AudioManager>().Play("Gang");
                 found = false;
                 rank.plusXP = (int)stealablethingie.StealAbleMoney;
+                GangController.SetBool("IsGood", true);
 
+                StartCoroutine(ssssss(Time.deltaTime));
                 FindObjectOfType<AudioManager>().Stop("Tension");
             }
-
             else
             {
                 GangController.SetBool("IsAngry", true);
@@ -165,12 +168,17 @@ public class StealMode : MonoBehaviour
         if (aI.YouveBeenCaught)
         {
             Debug.Log("YouveBeenCaught");
-            StartCoroutine(ssssss());
+            StartCoroutine(ssssss(2f));
             transform.position = new Vector3 { x= -8.087f,y=firstposition.y,z= -152.708f};
             if (Balance > 100)
             {
                 Balance -= 100;
+                if (Balance < 0)
+                {
+                    Balance = 0.0f;
+                }
             }
+            FindObjectOfType<AudioManager>().Stop("Tension");
             aI.YouveBeenCaught = false;
         }
 
@@ -182,9 +190,9 @@ public class StealMode : MonoBehaviour
         {
         }
     }
-    IEnumerator ssssss()
+    IEnumerator ssssss(float secods)
     {
-        yield return new WaitForSecondsRealtime(2);
+        yield return new WaitForSecondsRealtime(secods);
     }
     public void CheckTheNearest()
     {

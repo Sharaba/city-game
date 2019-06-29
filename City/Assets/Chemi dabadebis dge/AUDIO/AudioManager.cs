@@ -10,7 +10,7 @@ public class AudioManager : MonoBehaviour
 	public AudioMixerGroup mixerGroup;
 
 	public Sound[] sounds;
-
+    
 	void Awake()
 	{
 		if (instance != null)
@@ -34,8 +34,8 @@ public class AudioManager : MonoBehaviour
             s.source.outputAudioMixerGroup = mixerGroup;
 		}
 	}
-
-	public void Play(string sound)
+    
+    public void Play(string sound)
 	{
 		Sound s = Array.Find(sounds, item => item.name == sound);
 		if (s == null)
